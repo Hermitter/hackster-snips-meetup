@@ -5,5 +5,5 @@ Snips example
 # Pi Dependancies
 ```
 cd assistant
-npm install
+npm install mqtt @matrix-io/matrix-lite --save
 ```
