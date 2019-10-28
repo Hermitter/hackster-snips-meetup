@@ -49,19 +49,6 @@ client.on('message', (topic, message)=>{
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // - Request Snips session end & utter text given
 client.snipsRespond = (payload)=>{
     client.publish('hermes/dialogueManager/endSession', JSON.stringify({
